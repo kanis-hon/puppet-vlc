@@ -8,6 +8,6 @@ class vlc {
 
   package { 'VLC':
     provider => 'appdmg',
-    source   => 'http://mirror.nl.leaseweb.net/videolan/vlc/${version}/macosx/vlc-${version}.dmg',
+    source   => "http://mirror.nl.leaseweb.net/videolan/vlc/${version}/macosx/vlc-${version}.dmg",
   }
 }
