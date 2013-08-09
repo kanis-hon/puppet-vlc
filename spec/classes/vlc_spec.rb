@@ -4,7 +4,7 @@ describe 'vlc' do
   it do
     should contain_package('VLC').with({
       :provider => 'appdmg',
-      :source   => 'http://mirror.nl.leaseweb.net/videolan/vlc/2.0.7/macosx/vlc-2.0.7.dmg',
+      :source   => 'http://artfiles.org/videolan.org/vlc/2.0.8/macosx/vlc-2.0.8-intel64.dmg',
     })
   end
 end
