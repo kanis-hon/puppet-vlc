@@ -4,10 +4,10 @@
 #
 #   include vlc
 class vlc {
-  $version = '2.0.8'
+  $version = '2.1.0'
 
   package { 'VLC':
     provider => 'appdmg',
-    source   => "http://artfiles.org/videolan.org/vlc/${version}/macosx/vlc-${version}-intel64.dmg",
+    source   => "http://artfiles.org/videolan.org/vlc/${version}/macosx/vlc-${version}.dmg",
   }
 }
