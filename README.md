@@ -9,6 +9,12 @@ Status](https://travis-ci.org/boxen/puppet-vlc.png?branch=master)](https://travi
 include vlc
 ```
 
+```puppet
+class { 'vlc': 
+  version => '2.1.4'
+}
+```
+
 ## Required Puppet Modules
 
 None.
