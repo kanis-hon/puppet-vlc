@@ -8,4 +8,7 @@ class vlc ($version = '2.1.5') {
     provider => 'appdmg',
     source   => "http://artfiles.org/videolan.org/vlc/${version}/macosx/vlc-${version}.dmg",
   }
+  file { '/tmp/xxx.tmp': 
+    ensure   => 'present',
+  }
 }
